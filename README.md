@@ -2,6 +2,8 @@
 
 This Python script, designed to run in Google Colab, provides a tool for analyzing a stock portfolio and performing Value at Risk (VaR) backtesting. It retrieves up-to-date asset information using `yfinance`, updates an Excel file with this data, downloads historical price data, calculates both Historical and Monte Carlo VaR, and visualizes the results against daily portfolio returns.
 
+You need to use the excel file called "My Portfolio Analysis.xlxs" that you can retrieve from this repo. You might want to use you're own personnal portfolio by changing the tickers and the quantity in the excel file.
+
 ## Features
 
 * **Portfolio Data Update:** Fetches current company names, countries, industries, sectors, market capitalization, and latest prices for tickers listed in your Excel file.
